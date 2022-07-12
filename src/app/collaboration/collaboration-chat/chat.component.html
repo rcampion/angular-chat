@@ -1,0 +1,55 @@
+<app-popup #popupChat></app-popup>
+<button mat-raised-button color="primary" class="btn btn-success m-1" (click)="openChat()">Open WebChat</button>		
+<br>
+
+<section fxLayout="row wrap" fxLayoutAlign="center center">
+	<mat-card fxFlex="90%" fxFlex.xs="100%"> 
+	
+	<mat-card-title></mat-card-title>
+<!--  
+    <form [formGroup]="callForm" autocomplete="off" novalidate (ngSubmit)="saveCallSettings(callForm.value)" fxLayout="column wrap"
+      fxLayoutAlign="center center" fxLayoutGap="10px">
+-->      
+<mat-card-content>
+		
+<div class="container page">				  
+<p-panel>
+<div>
+	<div>
+		<input type="text" id="from" placeholder="Choose a nickname" />
+	</div>
+	<br />
+	
+	<table>
+                    <tr>
+                        <td colspan="2" align="right">
+                            <div class="btn-toolbar" style="margin: 0; vertical-align:middle">
+                                <div id="divBtnRegGroup" class="btn-group">
+                                	<button id="connect" class="btn btn-success m-1" (click)="login()">LogIn</button>
+&nbsp;&nbsp;
+									<button id="disconnect" class="btn btn-danger m-1" (click)="disconnect()">LogOut</button>
+                                </div>                          
+                            </div>
+                        </td>
+                    </tr>  	
+	</table>
+	<!--
+	<div>
+		<button id="connect" onclick="connect();">Connect</button>
+		<button id="disconnect" disabled="disabled" onclick="disconnect();">
+			Disconnect</button>
+	</div>	
+	-->
+	<br />
+	<div id="conversationDiv">
+		<input type="text" id="text" placeholder="Write a message..." />
+		<button id="sendMessage" class="btn btn-success m-1" (click)="sendMessage()">Send</button>
+		<!--
+		<button id="sendMessage" onclick="sendMessage();">Send</button>
+		-->
+		<p id="response"></p>
+	</div>
+</div>
+</p-panel>
+</div>
+</mat-card-content>

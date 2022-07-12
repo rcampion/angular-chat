@@ -1,0 +1,36 @@
+ng build --prod --base-href /webchat-app/
+ng build --configuration production --base-href /webchat-app/
+ng build --configuration development --base-href /webchat-app/
+
+localhost:8085/dashboard-server/api/chat/history/clear
+
+https://www.zdslogic.com/dashboard-server/api/chat/history/clear
+
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2rem;
+        font-family: 'Roboto';
+        height: 2rem;
+        width: 100%;
+        margin: 0 auto 1rem auto;
+
+
+#input
+
+195.54.160.10 - Hostway LLC
+
+66.249.65.154 -Google
+
+207.46.13.161 - Microsoft
+
+http://localhost:8082/dashboard-server/api/dashboard/whois?apiKey=0000001&ip=35.231.155.106
+
+https://www.zdslogic.com/dashboard-server/api/dashboard/whois?apiKey=0000001&ip=35.231.155.106
+
+recapthca
+
+site key 6LekHPgZAAAAAF22P6SL0snnu1stiwZkYN-slvea
+secret key 6LekHPgZAAAAADZzCZeLLjT_JYlOED-cNXmsH7IS
